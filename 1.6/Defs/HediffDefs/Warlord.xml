@@ -27,7 +27,7 @@
 		<stages>
 			<li>
 				<statFactors>
-					<VEF_MeleeAttackSpeedFactor>2</VEF_MeleeAttackSpeedFactor>
+					<MeleeCooldownFactor>0.5</MeleeCooldownFactor>
 				</statFactors>
 			</li>
 		</stages>
@@ -46,7 +46,7 @@
 		<stages>
 			<li>
 				<statFactors>
-					<VEF_RangeAttackSpeedFactor>5</VEF_RangeAttackSpeedFactor>
+					<RangedCooldownFactor>0.2</RangedCooldownFactor>
 				</statFactors>
 			</li>
 		</stages>
