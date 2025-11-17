@@ -10,6 +10,7 @@
     <expandingIconTexture>MapIcons/EltexMeteorLocation</expandingIconTexture>
     <forceExitAndRemoveMapCountdownDurationDays>11</forceExitAndRemoveMapCountdownDurationDays>
     <mainPartAllThreatsLabel>Hostile activity detected.</mainPartAllThreatsLabel>
+	<gravShipsCanLandOn>true</gravShipsCanLandOn>
     <tags>
       <li>VPE_EltexMeteor</li>
     </tags>
