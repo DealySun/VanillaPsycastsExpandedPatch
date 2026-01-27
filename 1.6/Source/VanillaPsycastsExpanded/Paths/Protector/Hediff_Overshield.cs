@@ -52,7 +52,7 @@
         }
         public virtual bool CanDestroyProjectile(Projectile projectile)
         {
-            var cell = ((Vector3)VEF.NonPublicFields.Projectile_origin.GetValue(projectile)).Yto0().ToIntVec3();
+            var cell = VEF.NonPublicFields.Projectile_origin(projectile).Yto0().ToIntVec3();
             return Vector3.Distance(projectile.ExactPosition.Yto0(), pawn.DrawPos.Yto0()) <= OverlaySize &&
                 !GenRadial.RadialCellsAround(pawn.Position, OverlaySize, true).ToList().Contains(cell);
         }
